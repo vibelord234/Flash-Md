@@ -1,13 +1,13 @@
 {
-  "name":"FLASH-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "name":"bumbumbot v.3.0",
+  "description":"Developed by the General overseer himself of nyash himself-VibeLord",
   "keywords":[
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+  "logo":"https://telegra.ph/file/42f9467aae65087b116d8.jpg",
   "repository":"https://github.com/France-King1/Flash-Md",
   "succes_url":"/",
 "stack":"container",
@@ -34,7 +34,7 @@
     "AUTO_VIEW_STATUS":
     {
       "description":"Your contact status will be read automatically(put on to activate or no to deactivate ; don't write in capital letter)",
-      "value":"on",
+      "value":"off",
       "required":false
     }, "AUTO_SAVE_STATUS":
     {
@@ -53,7 +53,7 @@
      "BOT_MENU_LINKS" : {
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+      "value":"https://telegra.ph/file/42f9467aae65087b116d8.jpg",
       "required":false
 
      },
@@ -85,20 +85,20 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "VibeLord"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":false,
-    "value": "254751284190"
+    "value": "2349063317053"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commands",
     "required": false,
-    "value": "3"
+    "value": "20"
   },
     "CHAT_BOT":
     {
@@ -109,8 +109,8 @@
   "STARTING_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put off else put on",
-    "required": true,
-    "value": "on"
+    "required": false,
+    "value": "off"
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
